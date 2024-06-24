@@ -9,7 +9,7 @@ const router=express.Router();
 
 router.route('/register').post(registerUser)
 router.route('/login').post(login)
-router.route('/allusers').get(authenticate ,allUsers)
+router.route('/alluser').get(authenticate ,allUsers)
 
 
 module.exports= router;

@@ -63,6 +63,7 @@ const login = expressAsyncHandler(async(req,res)=>{
 
 
 const allUsers= expressAsyncHandler(async(req,res)=>{
+  console.log('get user request')
 
   const keyword= req.query.search ? {
 
